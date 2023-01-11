@@ -25,7 +25,7 @@ function App() {
       title: 'New Desk',
       amount: 450,
       date: new Date(2021, 5, 12)
-    }
+    },
   ];
 
 
@@ -44,9 +44,9 @@ function App() {
         amount={expenses[2].amount}
         date={expenses[2].date} />
       <ExpenseItem
-        title={expense[3].title}
+        title={expenses[3].title}
         amount={expenses[3].amount}
-        date={expense[3].date} />
+        date={expenses[3].date} />
     </div>
   );
 }
